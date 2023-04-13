@@ -39,8 +39,8 @@ public class Person {
 	}
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", tax=" + tax
-				+ "]";
+		return "Persons \n Name=" + name + "\n Income=" + income + "\n Gender=" + gender + "\n Age=" + age + "\n Tax=" + tax
+				+ "";
 	}
 	
 }
