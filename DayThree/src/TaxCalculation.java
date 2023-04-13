@@ -1,9 +1,7 @@
 
 public class TaxCalculation {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public void calculateTax(Person person) {
+		if(person.getAge() > 65 || person.getGender().equalsIgnoreCase("female)){"
+				+ "}
 	}
-
 }
