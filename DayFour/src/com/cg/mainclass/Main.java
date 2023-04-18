@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MyClass mc = new MyClass();
-		com.cg.generaljavaclass.
+		mc.method1();
 	}
 
 }
