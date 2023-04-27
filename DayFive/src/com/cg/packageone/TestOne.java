@@ -10,18 +10,27 @@ public class TestOne {
 	public void display() {
 		System.out.println("Public within testone");
 	}
+	
 	protected void name() {
 		System.out.println("Protected within testone");
 	}
-	void 
-	private void display() {
+	
+	void name1() {
+		System.out.println("In Default");
+	}
+	
+	private void display1() {
 		System.out.println("In TestOne method");
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		TestOne t1 = new TestOne();
 		System.out.println(t1.i);
+		t1.display1();
 		t1.display();
+		t1.name();
+		t1.name1();
 	}
 
 }
