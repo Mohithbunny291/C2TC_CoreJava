@@ -6,6 +6,8 @@ public class CardMain {
 		// TODO Auto-generated method stub
 		Hacker h = new Hacker();
 		h.viewDetails();
+//		CreditCard cc = new CreditCard();
+//		cc.
 	}
 
 }

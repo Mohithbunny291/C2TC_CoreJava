@@ -4,10 +4,13 @@ public class Hacker extends CreditCard{
 	void changeDetails() {
 		cardno = 3412123;
 		pin = 2131;
+		System.out.println(cardno+" "+pin);
 	}
 	
-	void viewDetails(){
-		System.out.println(cardno);
+	public void viewDetails(){
+		Hacker h = new Hacker();
+		h.changeDetails();
 		System.out.println(pin);
+		System.out.println(cardno);
 	}
 }
