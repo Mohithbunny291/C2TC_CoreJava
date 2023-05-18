@@ -20,9 +20,6 @@ public class App2 {
 		t3.start();
 		t4.start();
 	}
-
-	
-	
 	class MyWork implements Runnable{
 
 		String name;
@@ -37,8 +34,8 @@ public class App2 {
 				Random rand = new Random();
 				Thread.sleep(rand.nextInt(1000));
 				System.out.println(name + " completed its Work.");
+				Thread.sleep(100000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
