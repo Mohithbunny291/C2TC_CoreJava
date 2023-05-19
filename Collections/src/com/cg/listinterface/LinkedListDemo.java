@@ -25,9 +25,9 @@ public class LinkedListDemo {
 		System.out.println(l1);
 		
 		ListIterator<Integer> l2 = l1.listIterator();
-		whi
-		System.out.println(l2.next());
-		
+		while(l2.hasNext()) {
+			System.out.println(l2.next());
+		}
 	}
 
 }
