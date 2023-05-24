@@ -25,15 +25,7 @@ public class CollectionsComplete {
         hashSet.add("Bob");
         System.out.println("HashSet: " + hashSet);
 
-        // TreeSet example
-        TreeSet<Integer> treeSet = new TreeSet<>();
-        treeSet.add(5);
-        treeSet.add(2);
-        treeSet.add(8);
-        treeSet.add(1);
-        treeSet.add(4);
-        System.out.println("TreeSet: " + treeSet);
-
+      
     }
 }
 

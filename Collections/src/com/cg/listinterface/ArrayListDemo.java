@@ -5,8 +5,9 @@ import java.util.List;
 
 public class ArrayListDemo {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
-		List list1 = new ArrayList();
+		List<Comparable> list1 = new ArrayList<Comparable>();
 		System.out.println(list1.size());
 		list1.add(12);
 		list1.add(34);
