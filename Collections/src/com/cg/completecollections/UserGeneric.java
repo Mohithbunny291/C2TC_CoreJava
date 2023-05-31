@@ -5,7 +5,7 @@ class Container1<T>{
 }
 
 
-class Container<Integer, String, Double>{
+class Container<Integer, String, Double extends Number>{
 	String value;
 	Integer int1; 
 	Double dob1;
